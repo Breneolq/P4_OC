@@ -1,4 +1,6 @@
+"""Docstring"""
 class Tournament:
+    """Docstring"""
     def __init__ (self, name, place, start_date, end_date, rounds, players, time_control, description, status):
         self.name = name
         self.place = place

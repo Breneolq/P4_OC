@@ -1,4 +1,4 @@
 """Docstring"""
-class Report:
+class ReportController:
     """Docstring"""
     pass
