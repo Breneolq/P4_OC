@@ -1,6 +1,8 @@
+from .controllers import ApplicationController
 def main():
         print('Test lancement')
 
 if __name__ == "__main__":
-
-    main() 
+        
+        app = ApplicationController()
+        app.start()

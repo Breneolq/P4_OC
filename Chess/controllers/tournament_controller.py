@@ -1,4 +1,4 @@
 """Docstring"""
-class TournamentController:
+class TournamentMakerController:
     """Docstring"""
     pass
