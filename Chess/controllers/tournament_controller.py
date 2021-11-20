@@ -1,4 +1,5 @@
 """Docstring"""
 class TournamentMakerController:
     """Docstring"""
-    pass
+    def __call__(self):
+        return

@@ -1,4 +1,5 @@
 """Docstring"""
 class PlayerController:
     """Docstring"""
-    pass
+    def __call__(self):
+        return

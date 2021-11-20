@@ -1,4 +1,5 @@
 """Docstring"""
 class ReportController:
     """Docstring"""
-    pass
+    def __call__(self):
+        return

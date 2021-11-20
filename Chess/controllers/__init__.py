@@ -1,4 +1,3 @@
-from Chess.Controllers.home_menu_controller import HomeMenuController
 from .home_menu_controller import HomeMenuController
 
 """Docstring"""
@@ -12,3 +11,5 @@ class ApplicationController:
     
     def start(self):
         self.controller = HomeMenuController()
+        while self.controller:
+            self.controller = self.controller()
