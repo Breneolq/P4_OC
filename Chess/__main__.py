@@ -1,6 +1,4 @@
-from .controllers import ApplicationController
-def main():
-        print('Test lancement')
+from .controllers.application_controller import ApplicationController
 
 if __name__ == "__main__":
         
