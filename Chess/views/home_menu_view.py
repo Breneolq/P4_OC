@@ -7,7 +7,9 @@ class HomeMenuView:
         self.menu = menu
 
     def _display_menu(self):
+        print()
         print("Accueil de gestion:")
+        print()
         for key, entry in self.menu.items():
              print (f"{key}: {entry}")
         print()
@@ -22,5 +24,3 @@ class HomeMenuView:
             if choice in self.menu:
                 #return choice
                 return self.menu[choice]
-        
-        
