@@ -1,6 +1,6 @@
-from ..controllers import home_menu_controller
-from ..models.menu import Menu
-from ..views.report_menu_view import ReportMenuView
+from controllers import home_menu_controller
+from models.menu import Menu
+from views.report_menu_view import ReportMenuView
 
 """Docstring"""
 class ReportMenuController:

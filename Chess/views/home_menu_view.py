@@ -1,4 +1,4 @@
-from ..models.menu import Menu
+from models.menu import Menu
 """Docstring"""
 class HomeMenuView:
     """Docstring"""

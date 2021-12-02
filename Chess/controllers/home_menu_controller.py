@@ -1,10 +1,10 @@
-from ..views.home_menu_view import HomeMenuView
+from views.home_menu_view import HomeMenuView
 from .tournament_maker_controller import TournamentMakerController
 from .going_back_tournament_controller import GoingBackTournamentController
 from .player_controller import PlayerController
 from .report_menu_controller import ReportMenuController
 from .end_application_controller import EndApplicationController
-from ..models.menu import Menu
+from models.menu import Menu
 
 """Docstring"""
 class HomeMenuController:
