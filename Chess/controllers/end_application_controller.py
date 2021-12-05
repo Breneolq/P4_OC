@@ -5,4 +5,4 @@ class EndApplicationController:
         pass
 
     def __call__(self):
-        pass
+        exit()
